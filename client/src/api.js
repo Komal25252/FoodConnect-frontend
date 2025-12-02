@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://foodconnect-backend-vo3n.onrender.com/", // updated to correct backend port
+  baseURL: "https://foodconnect-backend-vo3n.onrender.com/api", // updated to correct backend port
   withCredentials: true, // if you're using cookies/JWT
 });
 
