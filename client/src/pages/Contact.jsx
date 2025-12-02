@@ -40,7 +40,7 @@ const Contact = () => {
     if (!validate()) return;
 
     try {
-      const res = await axios.post("http://localhost:5000/api/contact", formData);
+      const res = await axios.post("https://foodconnect-backend-vo3n.onrender.com/api/contact", formData);
       setStatus("✅ Message sent successfully!");
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
